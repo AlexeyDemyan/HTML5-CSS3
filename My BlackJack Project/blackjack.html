@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    
+    <div class="table">
+        <a href="blackjack_practice.html">Practice Page</a>
+        <div class="deck"></div>
+        <div class="dealercards">
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="rules">Blackjack pays 3 to 2 <br> Dealer must stand on 17 and draw to 16 <br> Insurance pays 2 to 1</div>
+        <div class="bet">Player Bet<br><br>
+            <input type="button" value="Deal" id="dealButton">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <div class="playercards">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        
+        <div class="playerbank">Player Bank will be here</div>
+        <div class="chips">Player Chips <br><br>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+            <div class="buttons">
+            <form action="#">
+               <ul>
+                   <li><input type="button" value="Double*2" id="double" onclick="alert('Double Button')"></li>
+                   <li><input type="button" value="Hit" id="hit" onclick="alert('Hit Button')"></li>
+                   <li><input type="button" value="Stand" id="stand" onclick="alert('Stand Button')"></li>
+                   <li><input type="button" value="Test" id="testButton"></li>
+               </ul>
+            </form>
+        </div> 
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>

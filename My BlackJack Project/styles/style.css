@@ -1,0 +1,161 @@
+/** to do the video later
+video {
+    height: 100vh;
+	width: 100%;
+	object-fit: cover;
+	object-position: center center;
+} **/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {text-decoration: none}
+
+.menu {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.table {
+    margin: 0 auto;
+    width: 1380px;
+    height: 900px;
+    padding: 10px;
+    background-color: #35654d;
+    border: 3px solid #000;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.deck {
+    margin: 0 auto;
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    width: 109px;
+    height: 164px;
+    background-image: url(../images/card_back_small.JPG);
+    background-position: center;
+    background-size: 101%;
+    /*background-size: 109px 164px;*/
+    background-repeat: no-repeat;
+}
+
+.dealercards {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.dealercards ul li{
+    display: inline-block;
+    width: 109px;
+    height: 164px;
+    background-image: url(../images/card_back_small.JPG);
+    background-position: center;
+    background-size: 101%;
+    background-repeat: no-repeat;
+}
+
+.rules {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid #000;    
+    border-radius: 5px 5px 5px 5px;
+    background-color: #966F33;
+}
+
+.bet {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bet ul li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/chip.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.playercards {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.playercards ul li {
+    display: inline-block;
+    width: 109px;
+    height: 164px;
+    background-image: url(../images/card_back_small.JPG);
+    background-position: center;
+    background-size: 101%;
+    background-repeat: no-repeat;
+}
+
+.playerbank {
+    margin: 0 auto;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+}
+
+.chips {
+    margin: 0 auto;
+    margin-left: 565px;
+    width: 250px;
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+    background-color: #966F33;
+}
+
+.chips ul li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/chip.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.buttons {
+    width: 350px;
+    margin-top: -40px;
+    float: right;
+}
+
+.buttons ul li {
+    width: 140px;
+    height: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+[type=button] {
+    width: 140px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+[type=button]:hover {
+    background-color:antiquewhite;
+}
